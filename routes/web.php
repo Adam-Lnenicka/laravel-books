@@ -24,3 +24,7 @@ Route::get('/test', 'TestController@index');
 
 Route::get('/books', 'BookController@index');
 
+Route::get('/route-test', function() {
+
+});
+
