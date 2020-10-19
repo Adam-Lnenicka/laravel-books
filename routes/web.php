@@ -20,4 +20,7 @@ Route::get('/', function () {
 Route::get('/api/books', 'APIBookController@index');
 
 
-Route::get('/books', 'TestController@index');
+Route::get('/test', 'TestController@index');
+
+Route::get('/books', 'BookController@index');
+
