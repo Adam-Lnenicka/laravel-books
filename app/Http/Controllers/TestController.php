@@ -26,6 +26,10 @@ class TestController extends Controller
 
         $lastname = 'Doe';
 
-        return view('test/test', compact('user', 'surname'));
+        $description = '<p>This is <strong>my</strong> description</p>';
+
+        $age = 15;
+
+        return view('test/test', compact('user', 'surname', 'description', 'age'));
     }
 }
