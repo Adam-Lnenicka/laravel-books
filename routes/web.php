@@ -17,14 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/api/books', 'APIBookController@index');
 
+Route::get('/api/books', 'APIBookController@index');
 
 Route::get('/test', 'TestController@index');
 
-Route::get('/books', 'BookController@index');
+Route::get('/books', 'BookController@index')->name('books');
 
-Route::get('/route-test', function() {
-
-});
+Route::get('/books/{id}', 'BookController@show');
 
