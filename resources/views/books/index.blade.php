@@ -10,8 +10,7 @@
 
     {{--    <p>--}}
     {{--        {{ url('/books/' . $b->id) }}--}}
-    {{--    </p>--}}
-
+    {{--    </p>--}}c
     {{--    <p>--}}
     {{--        {{ action('BookController@index') }}--}}
     {{--    </p>--}}
@@ -20,13 +19,8 @@
     {{--        {{ action('Auth\LoginController@showLoginForm') }}--}}
     {{--        {{ route('login') }}--}}
     {{--    </p>--}}
-
     {{--    <p>--}}
     {{--        {{ route('books') }}--}}
     {{--    </p>--}}
-
-
-
-
 @endforeach
 
